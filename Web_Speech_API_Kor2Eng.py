@@ -48,7 +48,7 @@ def text_translation(text,from_lang,to_lang): # from c:/Users/Ogunbo/gradio-groq
     return translation_text
 
 # recognition.lang = 'en-US';
-print(bokeh.__version__)
+#print(bokeh.__version__)
 # Create a Bokeh button
 stt_button = Button(label="🎙️ Speak", width=100)
 

@@ -57,7 +57,7 @@ stt_button.js_on_event("button_click", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
     recognition.continuous = true;
     recognition.interimResults = true;
-    recognition.lang = 'ko';
+    recognition.lang = 'ko-KR';
     recognition.start();
 
     recognition.onresult = function(e) {
